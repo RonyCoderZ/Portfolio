@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* This disables scrolling */
+}
+html {
+    background: url("abstract-digital-grid-black-background.jpg");
+}
+
+header {
+    font-family: "Radio Canada", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: beige;
+}
+
+h1 {
+    width: 500px;
+    border-bottom: 2px solid grey;
+}
+
+.imagecontain img {
+    display: flex;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-left: 850px;
+    margin-right: auto;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.imagecontain img:hover {
+    border: 2px solid greenyellow;
+    height: 315px;
+    width: 315px;
+    box-shadow: 5px 5px 5px 1px limegreen;
+}
+    body {
+        font-family: "Radio Canada", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+        color: beige;
+    }
+
+
+.title1 h2 {
+    font-weight: 1000;
+    font-size: 300%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.head3 h3 {
+    font-weight: 700;
+    font-size: 200%;
+    width: 400px;
+    border-bottom: 2px solid grey;
+    margin-left: 100px;
+}
+
+.p1 p {
+    font-weight: 800;
+    font-size: 150%;
+    height: 300px;
+    width: 700px;
+    margin-left: 100px;
+}
+.whole{
+    transform: translateY(-200px);
+}
+.contact-footer {
+  width: 100%;
+  background-color: #0b0163;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+}
+
+.contact-footer a {
+  text-decoration: none;
+  color: beige;
+}
+
+.contact-footer a:hover {
+  text-decoration: underline;
+}
